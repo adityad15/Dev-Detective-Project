@@ -1,0 +1,3 @@
+FROM httpd:2.4
+COPY D:/CSE/cicd/jenkins/.jenkins/workspace/ D:/xampp/htdocs/
+EXPOSE 80
